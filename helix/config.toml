@@ -1,0 +1,33 @@
+#themes = [
+#  "everforest_dark",
+#  "ayu_mirage",
+#  "varua",
+#  "ayu_dark"
+#]
+
+theme = "everforest_dark_transparent"#"ayu_mirage"#"everforest_dark"#"varua"#everforest_dark"#"ayu_dark"
+
+[editor]
+line-number = "absolute"
+mouse = true
+bufferline="always"
+
+[keys.normal]
+"ins" = "insert_mode"
+C-s = ":w"
+C-r = ":config-reload"
+C-z = ":reload"
+C-o = "file_picker"
+C-q = ":q"
+"S-tab" = "goto_next_buffer"
+
+[keys.insert]
+"C-del" = "delete_word_forward"
+"C-backspace" = "delete_word_backward"
+"C-space" = "completion"
+"right" = "move_char_right"
+"left" = "move_char_left"
+"up" = "move_line_up"
+"down" = "move_line_down"
+"C-left" = "move_prev_word_end"
+"C-right" = "move_next_word_start"
