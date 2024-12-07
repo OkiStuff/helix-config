@@ -12,11 +12,14 @@ line-number = "absolute"
 mouse = true
 bufferline="always"
 
+[editor.smart-tab]
+enable=false
+
 [keys.normal]
 "ins" = "insert_mode"
 C-s = ":w"
 C-r = ":config-reload"
-C-z = ":reload"
+C-z = ":earlier"
 C-o = "file_picker"
 C-q = ":q"
 "S-tab" = "goto_next_buffer"
